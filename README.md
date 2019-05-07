@@ -46,7 +46,7 @@ badge1.setNumber(3);
 .....
 
 ```
-
+![bottomNavBadge](https://raw.githubusercontent.com/ammarptn/bottomNavBadge/master/src2.png)
 that all.
 
 
