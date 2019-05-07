@@ -32,19 +32,21 @@ public class MainActivity extends AppCompatActivity {
                     title.setText("This is notification");
                 } else if (item.getItemId() == R.id.mail) {
                     title.setText("This is mail");
+                } else if (item.getItemId() == R.id.update) {
+                    title.setText("This is update");
                 }
                 return true;
             }
         });
 
-        Badge badge = NotificationBadge.getBadge(bottomNavMenu, 0);
-        badge.setNumber(2);
+
+
 
         Badge badge2 = NotificationBadge.getBadge(bottomNavMenu, 1);
         badge2.setNumber(2);
 
         Badge badge3 = NotificationBadge.getBadge(bottomNavMenu, 2);
-        badge3.setNumber(2);
+        badge3.setNumber(3);
 
 
 

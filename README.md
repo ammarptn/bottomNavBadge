@@ -18,8 +18,8 @@ Step 2. Add the dependency
 ```java
 dependencies {
 
-            implementation 'androidx.appcompat:appcompat:1.0.2'
-            implementation 'com.google.android.material:material:1.1.0-alpha06'
+            implementation 'androidx.appcompat:appcompat:X.X.X'
+            implementation 'com.google.android.material:material:X.X.X'
             ...
             implementation 'com.github.ammarptn:bottomNavBadge:1.0.2'
 	}
@@ -36,6 +36,11 @@ Badge badge = NotificationBadge.getBadge(bottomNavMenu, 0);
 
 // set number to it
 badge.setNumber(2); 
+
+Badge badge1 = NotificationBadge.getBadge(bottomNavMenu, 1); 
+
+// set number to it
+badge1.setNumber(3); 
 
 ...
 .....

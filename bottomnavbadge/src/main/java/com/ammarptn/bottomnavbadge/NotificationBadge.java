@@ -15,8 +15,13 @@ public class NotificationBadge {
         if (bottomNavigationMenuView.getChildCount() > indexAt) {
             View v = bottomNavigationMenuView.getChildAt(indexAt);
             BottomNavigationItemView itemView = (BottomNavigationItemView) v;
-            View badge = LayoutInflater.from(bottomNavigationMenuView.getContext()).inflate(R.layout.layout_nav_bottom_badge, itemView, true);
-            return badge.findViewById(R.id.notifications_nav_badge);
+            if (itemView.findViewById(R.id.notifications_nav_badge) == null) {
+                View badge = LayoutInflater.from(bottomNavigationMenuView.getContext()).inflate(R.layout.layout_nav_bottom_badge, itemView, true);
+                return badge.findViewById(R.id.notifications_nav_badge);
+            } else {
+                return itemView.findViewById(R.id.notifications_nav_badge);
+            }
+
         } else {
             throw new IndexOutOfBoundsException(String.format("No menu item at %d", indexAt));
         }

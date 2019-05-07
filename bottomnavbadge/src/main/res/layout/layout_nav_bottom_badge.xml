@@ -1,4 +1,5 @@
-<merge xmlns:android="http://schemas.android.com/apk/res/android">
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <com.ammarptn.bottomnavbadge.Badge
         android:id="@+id/notifications_nav_badge"
@@ -12,7 +13,7 @@
         android:lines="1"
         android:minWidth="16dp"
         android:minHeight="16dp"
-        android:text="1"
+        android:text="0"
         android:textColor="@android:color/white"
         android:textSize="10sp" />
 </merge>
