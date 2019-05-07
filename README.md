@@ -1,15 +1,27 @@
-# Project Title
+# BottomNavBadge
 
 This is library that will help you add notification badges to your BottomNavigationView of com.android.support:design.
 
-![alt text](https://raw.githubusercontent.com/ammarptn/bottomNavBadge/master/src.png)
+![bottomNavBadge](https://raw.githubusercontent.com/ammarptn/bottomNavBadge/master/src.png)
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Usage
+Add it in your root build.gradle at the end of repositories:
+```java
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
+Step 2. Add the dependency
+```java
+dependencies {
+	        implementation 'com.github.ammarptn:bottomNavBadge:1.0.0'
+	}
+```
+### Usage
+```java
 .....
 ...
 
@@ -42,4 +54,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * My free time, my cat , my life
 
-# bottomNavBadge
+
