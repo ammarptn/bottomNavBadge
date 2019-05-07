@@ -25,7 +25,7 @@ dependencies {
 .....
 ...
 
-bottomNavMenu = findViewById(R.id.bottom_nav_menu);
+BottomNavigationView bottomNavMenu = findViewById(R.id.bottom_nav_menu);
 
 // pass bottomNavMenu view and index of menu you want to show badge
 Badge badge = NotificationBadge.getBadge(bottomNavMenu, 0); 
