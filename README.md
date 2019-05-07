@@ -17,6 +17,11 @@ allprojects {
 Step 2. Add the dependency
 ```java
 dependencies {
+
+            implementation 'androidx.appcompat:appcompat:1.0.2'
+            implementation 'com.google.android.material:material:1.1.0-alpha06'
+            ...
+
 	        implementation 'com.github.ammarptn:bottomNavBadge:1.0.0'
 	}
 ```
