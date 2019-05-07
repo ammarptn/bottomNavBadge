@@ -18,10 +18,10 @@ Step 2. Add the dependency
 ```java
 dependencies {
 
-            implementation 'androidx.appcompat:appcompat:X.X.X'
-            implementation 'com.google.android.material:material:X.X.X'
+            implementation 'androidx.appcompat:appcompat:x.x.x'
+            implementation 'com.google.android.material:material:x.x.x'
             ...
-            implementation 'com.github.ammarptn:bottomNavBadge:1.0.2'
+            implementation 'com.github.ammarptn:bottomNavBadge:1.0.3'
 	}
 ```
 ### Usage
