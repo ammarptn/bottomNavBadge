@@ -16,8 +16,5 @@
         android:icon="@drawable/ic_mail"
         android:title="Mail" />
 
-    <item
-        android:id="@+id/update"
-        android:icon="@drawable/ic_system_update"
-        android:title="Update" />
+
 </menu>

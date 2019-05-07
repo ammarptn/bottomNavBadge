@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
                     title.setText("This is notification");
                 } else if (item.getItemId() == R.id.mail) {
                     title.setText("This is mail");
-                } else if (item.getItemId() == R.id.update) {
-                    title.setText("This is update");
                 }
                 return true;
             }
@@ -48,8 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Badge badge3 = NotificationBadge.getBadge(bottomNavMenu, 2);
         badge3.setNumber(2);
 
-        Badge badge4 = NotificationBadge.getBadge(bottomNavMenu, 3);
-        badge4.setNumber(2);
+
 
 
     }
