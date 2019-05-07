@@ -1,0 +1,18 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.ammarptn.bottomnavbadge.Badge
+        android:id="@+id/notifications.badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/dot_red_vd"
+        android:gravity="center"
+        android:lines="1"
+        android:minWidth="16dp"
+        android:minHeight="16dp"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+</merge>
