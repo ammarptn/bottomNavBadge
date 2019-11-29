@@ -1,3 +1,13 @@
+# Deprecated
+This library is deprecated
+
+Please use this official one from Google instead
+
+
+[https://material.io/develop/android/components/badging/](https://material.io/develop/android/components/badging/)
+
+[https://material.io/develop/android/components/bottom-navigation-view/](https://material.io/develop/android/components/bottom-navigation-view/)
+
 # BottomNavBadge
 
 This is library that will help you add notification badges to your BottomNavigationView of com.android.support:design.

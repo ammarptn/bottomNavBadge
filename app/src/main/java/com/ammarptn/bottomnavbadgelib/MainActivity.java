@@ -46,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
         badge2.setNumber(2);
 
         Badge badge3 = NotificationBadge.getBadge(bottomNavMenu, 2);
+        Badge badge4 = NotificationBadge.getBadge(bottomNavMenu, 2);
+        Badge badge5 = NotificationBadge.getBadge(bottomNavMenu, 2);
+        badge4.setNumber(2);
         badge3.setNumber(3);
 
 
